@@ -1,6 +1,6 @@
 package com.godmomentsbackend.models;
 
-public class NewUsers {
+public class Users {
 
 	private String firstName;
 	private String lastName;
