@@ -112,6 +112,7 @@ public class MavenWrapperDownloader {
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
         fos.close();
         rbc.close();
+        
     }
 
 }
