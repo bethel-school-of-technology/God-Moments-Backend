@@ -1,16 +1,15 @@
 package com.godmomentsbackend.models;
 
-public class NewUsers {
+public class Users {
 
 	private String firstName;
 	private String lastName;
 	private int dateOfBirth;
-	private String emailAddress;
+	private String email;
 	private int phoneNumber;
 	private String username;
-	private String passsord;
+	private String password;
 	private int age;
-	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -29,11 +28,11 @@ public class NewUsers {
 	public void setDateOfBirth(int dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
-	public String getEmailAddress() {
-		return emailAddress;
+	public String getEmail() {
+		return email;
 	}
-	public void setEmailAddress(String emailAddress) {
-		this.emailAddress = emailAddress;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	public int getPhoneNumber() {
 		return phoneNumber;
@@ -47,13 +46,13 @@ public class NewUsers {
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	public String getPasssord() {
-		return passsord;
+	public String getPassword() {
+		return password;
 	}
-	public void setPasssord(String passsord) {
-		this.passsord = passsord;
+	public void setPassword(String password) {
+		this.password = password;
 	}
-	public int getPassword() {
+	public int getAge() {
 		return age;
 	}
 	public void setAge(int age) {
