@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.bind.annotation.GetMapping;
 import com.godmomentsbackend.repositories.UsersRepository;
 
 @CrossOrigin
@@ -14,13 +14,10 @@ import com.godmomentsbackend.repositories.UsersRepository;
 public class UserController {
 
 	@Autowired
-	private UsersRepository repository;
-
-	public UsersRepository getRepository() {
-		return repository;
+	private UsersRepository Repository;
+	@GetMapping("all")
+	public int getUsers() {
+		return 2;
 	}
 
-	public void setRepository(UsersRepository repository) {
-		this.repository = repository;
-	}
-}
+}	
