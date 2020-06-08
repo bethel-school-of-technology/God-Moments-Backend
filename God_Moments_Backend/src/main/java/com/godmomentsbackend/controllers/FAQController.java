@@ -19,8 +19,5 @@ public String getFAQ() {
 }
 }
 
-// lesson 7
 
 
-
-// ORM
