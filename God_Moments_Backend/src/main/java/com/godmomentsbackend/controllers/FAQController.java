@@ -18,3 +18,9 @@ public String getFAQ() {
 	return service.getFAQ();
 }
 }
+
+// lesson 7
+
+
+
+// ORM
