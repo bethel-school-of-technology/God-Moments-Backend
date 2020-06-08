@@ -55,3 +55,5 @@ public class MessageController {
         return ResponseEntity.ok().build();
     }
 }
+
+//crud implementation postman
