@@ -56,4 +56,3 @@ public class MessageController {
     }
 }
 
-// use crud for all features

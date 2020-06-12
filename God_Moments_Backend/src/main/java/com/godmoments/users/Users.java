@@ -1,4 +1,4 @@
-package com.godmomentsbackend.models;
+package com.godmoments.users;
 
 public class Users {
 
