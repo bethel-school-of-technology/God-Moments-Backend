@@ -59,4 +59,8 @@ public class Users {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public Users orElse(Object object) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

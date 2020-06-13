@@ -1,4 +1,4 @@
-package com.godmomentsbackend.repository;
+package com.godmoments.testimony;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -1,8 +1,7 @@
-package com.godmomentsbackend.services;
+package com.godmoments.testimony;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.godmomentsbackend.repository.TestimonyRepository;
 
 @Service
 public class TestimonyService {
