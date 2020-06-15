@@ -28,7 +28,7 @@ public class TestimonyController {
 
     @GetMapping("/Users/{id}")
     public ResponseEntity<Users> getUsers(@PathVariable(value="id") Integer id) {
-        Users foundMessage = dao.findById(id).orElse(null);
+        Users foundMessage = dao.findByUsername(id).orElse(null);
 
         if(foundMessage == null) {
             return ResponseEntity.notFound().header("Message","Nothing found with that id").build();
