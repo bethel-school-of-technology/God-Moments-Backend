@@ -22,7 +22,9 @@ import com.gmbe.demo.repository.UsersRepository;
     	public List<Users> getUsers() {
     		Users users = new Users();
     		users.setName("Javier");
-    		users.setContent("cool");
+    		users.setContent("Bethel Tech Student");
+    		users.setEmail("Javmartinez791@gmail.com");
+    		users.setPassword("********");
     		usersRepository.save(users);
     		return usersRepository.findAll();
     	}
