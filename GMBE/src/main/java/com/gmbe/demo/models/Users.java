@@ -10,6 +10,8 @@ import javax.persistence.Table;
 @Table(name="Users")
 public class Users {
 	
+	
+	// add
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
